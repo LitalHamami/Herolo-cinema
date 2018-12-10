@@ -35,7 +35,7 @@ function createCardsText(props) {
     return (
       <CardText key={props.movie.imdbID + Math.random()}>
         <strong className={classes.first}>{field}: </strong>
-        {props.movie[field]}
+        {  props.movie[field]}
       </CardText>
     );
   });
