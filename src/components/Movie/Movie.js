@@ -34,8 +34,8 @@ function createCardsText(props) {
   return fieldArr.map(field => {
     return (
       <CardText key={props.movie.imdbID + Math.random()}>
-        <strong className={classes.first}>{field}: </strong>
-        {  props.movie[field]}
+        <strong className={classes.first}>{field}:   </strong>
+        {" "}{props.movie[field]}
       </CardText>
     );
   });
