@@ -1,0 +1,20 @@
+export const FETCH_MOVIES_START= 'FETCH_MOVIES_START'
+export const FETCH_MOVIES_SUCCESS= 'FETCH_MOVIES_SUCCESS'
+export const FETCH_MOVIES_FAILED= 'FETCH_MOVIES_FAILED'
+
+export const DELETE_MOVIE='DELETE_MOVIE'
+export const GET_MOVIE_BY_ID='GET_MOVIE_BY_ID'
+
+export const ADD_MOVIE='ADD_MOVIE'
+export const EDIT_MOVIE='EDIT_MOVIE'
+
+
+
+
+
+
+
+
+
+
+
