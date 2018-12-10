@@ -61,7 +61,7 @@ class Movies extends Component {
         </Auxilary>
       );
     }
-    movies = this.mapMovies(this.props.movies);
+    if(this.props.movies.length>0) movies = this.mapMovies(this.props.movies);
     if (this.state.showModal) modal = this.showModalByType();
     return (
       <Auxilary>
