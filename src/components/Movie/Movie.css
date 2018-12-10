@@ -47,3 +47,7 @@
 .Strong {
   text-transform: capitalize;
 }
+
+.Var{
+  margin-left:3px
+}
